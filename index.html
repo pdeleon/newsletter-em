@@ -28,11 +28,16 @@
         img {
             border: 0;
         }
-
+       
         @media screen and (max-width: 599.98px){
-
+            
+            .main-table {
+                width: 100%;
+            }
         }
+
         @media screen and (max-width: 399.98px){
+            
 
         }
 
@@ -75,7 +80,7 @@
                 <tr>
                 <td style="padding:0">        
         <![endif]-->
-        <table align="center" style="border-spacing: 0; color: #565656; font-family: 'Lato', sans-serif, Arial, Helvitica !important; background-color: #fff; Margin:0; padding: 0; width: 100%; max-width: 600px;" role="presentation">
+        <table class="main-table" align="center" style="border-spacing: 0; color: #565656; font-family: 'Lato', sans-serif, Arial, Helvitica !important; background-color: #fff; Margin:0; padding: 0; width: 100%; max-width: 600px;" role="presentation">
 
             <!-- PUBLISHED ON -->
             <tr>
@@ -87,7 +92,7 @@
             <!-- BANNER -->
             <tr>
                 <td>
-                    <img src="./banner.jpg" alt="" width="600">
+                    <img class="banner" src="./banner.jpg" alt="" style="max-width: 600px;">
                 </td>
             </tr>
             <!-- OVERVIEW -->
